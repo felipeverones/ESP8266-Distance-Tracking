@@ -63,12 +63,15 @@ function main(){
     data1.nearNodes.forEach((element)=>{
 
         let linhaSenderNode = document.createElement("div")
+        linhaSenderNode.classList.add("linhaSenderNode")
         linhaSenderNode.innerHTML = data1.senderNode
          
         let linhaNearNode = document.createElement("div")
+        linhaNearNode.classList.add("linhaNearNode");
         linhaNearNode.innerHTML = element.SSID
 
         let linhaRSSI  = document.createElement("div")
+        linhaRSSI.classList.add("linhaRSSI");
         linhaRSSI.innerHTML = element.RSSI
 
         let linha = document.createElement("div");

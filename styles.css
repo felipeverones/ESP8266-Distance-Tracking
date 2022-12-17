@@ -19,7 +19,7 @@ html {
 
 body {
     font-family: var(--font-family);
-    background-attachment: fixed;
+    word-break: break-all;
 }
 
 a,
@@ -60,3 +60,9 @@ a:visited {
   border-left: none;
   border-right: none;
 }
+
+.linhaSenderNode, .linhaNearNode, .linhaRSSI{
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
