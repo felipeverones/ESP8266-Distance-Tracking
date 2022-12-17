@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* faz com que o padding e o border desconte do tamanho do conteúdo ao invés de somar além do tamanho do conteúdo principal */
+  /* ou seja, a largura e altura do elemento passam a considerar os valores de padding e border também */
+}
+
+:root {
+  --font-family: 'Roboto', sans-serif;
+  --main-color: #8700ff;
+  --background-color: #020303;
+  --final-color: #030404;
+  --transition-color: #9a37ff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family);
+    background-attachment: fixed;
+}
+
+a,
+a:active,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10% 0 10%;
+}
+
+.tabela{
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: flex-start;
+  border: 3px solid #6cbdbd;
+  border-radius: 25px;
+  width: 100%;
+  height: 500px;
+  flex-direction: column;
+}
+
+.header, .linha{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px; 
+  border: 0.5px solid rgb(182, 172, 172);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
