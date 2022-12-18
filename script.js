@@ -15,18 +15,18 @@ function main(){
     data = JSON.parse(data);
     
 
-    console.log(data.feeds[0].field1);
+    /* console.log(data.feeds[0].field1); */
 
-    data1 = data.feeds[0].field1
+    let data1 = data.feeds[0].field1
 
-    console.log(data1)
+    /* console.log(data1) */
 
     data1 =  data1.slice(0,-1)
-    console.log(data1)
+    /* console.log(data1) */
 
     data1 = JSON.parse(data1)
 
-    console.log(data1)
+    /* console.log(data1) */
 
     const tabela = document.getElementById("tabela");
 
