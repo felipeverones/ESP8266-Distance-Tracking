@@ -21,7 +21,7 @@ function main(){
 
     /* console.log(data1) */
 
-    data1 =  data1.slice(0,-1)
+    //data1 =  data1.slice(0,-1)
     /* console.log(data1) */
 
     data1 = JSON.parse(data1)
